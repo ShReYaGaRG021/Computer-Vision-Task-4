@@ -79,7 +79,6 @@ while True:
     cv2.rectangle(mi,(268,532), (532,800), [0,0,0],4)
     cv2.rectangle(mi,(0,0), (800,800), [0,0,0],5)
     cv2.rectangle(mi,(532,268),(800,532),[0,0,0],5)
-    
     cv2.imshow('hi',mi)
     if cv2.waitKey()==13:
         break
