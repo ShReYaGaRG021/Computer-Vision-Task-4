@@ -1,0 +1,13 @@
+import cv2  
+pic1 = cv2.imread('Viperr.jpg')
+pic2 = cv2.imread('viper.jpg')
+cv2.imshow('viper img 1',pic1)
+cv2.waitKey()
+cv2.destroyAllWindows()
+cv2.imshow('viper img 2',pic2)
+cv2.waitKey()
+cv2.destroyAllWindows()
+image = cv2.hconcat([pic1,pic2])
+cv2.imshow('NewImage', image)
+cv2.waitKey()     
+cv2.destroyAllWindows()
